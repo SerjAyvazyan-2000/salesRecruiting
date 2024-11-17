@@ -1,0 +1,100 @@
+
+.main {
+    overflow: hidden;
+    margin-top: 125px;
+}
+.section {
+    margin-top: 96px;
+}
+.G_container {
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+.btn-black {
+    background: #061B3A;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    cursor: pointer;
+
+}
+.btn-black span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.79px;
+    color: #FFFFFF;
+    background: transparent;
+
+}
+.btn-white {
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s;
+    cursor: pointer;
+    padding: 0 22px;
+    gap: 10px;
+
+
+
+}
+.btn-white span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.79px;
+    background: transparent;
+    color: #061B3A;
+    text-align: left;
+
+
+}
+.btn-black:hover {
+    opacity: .8;
+}
+.btn-white:hover {
+    opacity: .8;
+    background: #000000;
+    color: #FFFFFF;
+
+}
+.btn-white:hover span {
+    color: #FFFFFF;
+}
+.btn-white:hover svg path{
+    fill: #FFFFFF;
+}
+.btn-white:hover button{
+    color: #FFFFFF
+}
+.section-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54.48px;
+    text-align: left;
+    color: #000000;
+
+
+}
+.section-decor {
+    position: absolute;
+
+}
+.section-sub-title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.69px;
+    text-align: left;
+    color: #000000;
+    opacity: 0.4;
+
+}
+.section-header > :not(:last-child) {
+    margin: 0 0 35px 0;
+}

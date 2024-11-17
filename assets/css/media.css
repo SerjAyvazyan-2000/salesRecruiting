@@ -1,0 +1,808 @@
+@media (max-width: 1215px) {
+    .menu ul {
+        gap: 20px;
+    }
+
+    .applicants-list {
+        flex-direction: column;
+    }
+
+    .average-item-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .applicants-column-descr {
+        max-width: 100%;
+    }
+
+    .questions-info-box {
+        padding: 62px 39px 77px 42px;
+        border-radius: 20px;
+
+    }
+
+    .applicants-column-info {
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .videoRevues-list {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .videoRevues-item, .videoRevues-mini-videos {
+        max-width: 100%;
+    }
+
+    .contest-body {
+        flex-direction: column;
+    }
+
+    .contest-description-item {
+        max-width: 100%;
+    }
+
+    .question-list {
+        border-radius: 20px;
+    }
+
+    .register-tools {
+        padding: 62px 42px 78px 39px;
+        max-width: 100%;
+    }
+
+    .register-info {
+        padding: 62px 52px 34px 21px;
+        max-width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 20px;
+
+
+    }
+
+
+    .download-requirements {
+        left: 0;
+        width: 345px;
+        align-items: stretch;
+    }
+
+
+    .picture-name {
+        padding: 20px 40px;
+
+
+    }
+
+    .register-tools {
+        max-width: 913px;
+        padding: 85px 99px 78px 99px;
+        background: #061B3A;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+
+    }
+
+    .candidates-list {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .candidates-item {
+        flex: 0 1 48%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .register-body {
+        flex-direction: column;
+    }
+
+    .register-info-decor svg {
+        display: block;
+    }
+
+    .register-info-decor {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 46px;
+    }
+
+    .register-info-text {
+        margin-top: 20px;
+        font-family: 'Onest';
+        font-size: 24px;
+        line-height: 30.6px;
+
+
+    }
+
+    .register-info-decor img {
+        display: none;
+    }
+}
+
+@media (max-width: 1343px) {
+    .main-body {
+        flex-direction: column;
+    }
+
+    .main-media {
+        position: relative;
+        top: 0;
+    }
+
+    .download-requirements {
+        right: 0;
+    }
+
+    .main-info {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 1300px) {
+    .funnel-body {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .funnel-info-column {
+        position: inherit;
+    }
+
+    .funnel-column-line {
+        display: none;
+    }
+
+    .funnel-column-text {
+        order: 2;
+        max-width: 100%;
+        text-align: left;
+
+
+    }
+
+    .funnel-info-list {
+        margin-top: 59px;
+    }
+
+    .funnel-info-list > :not(:last-child) {
+        margin: 0 0 29px 0;
+    }
+}
+
+@media (max-width: 1025px ) {
+
+
+}
+
+@media (max-width: 1160px) {
+
+
+}
+
+@media (max-width: 991px) {
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        top: 100px;
+        background: #FFFFFF;
+        transition: .3s;
+
+    }
+
+
+    .contest-decor {
+        display: none;
+    }
+
+    .cases-body {
+        gap: 82px;
+        margin-top: 25px;
+        flex-direction: column;
+    }
+
+    .contest-body {
+        margin-top: 25px;
+
+    }
+
+    .cases-description-item {
+        max-width: 100%;
+    }
+
+    .cases-section {
+        margin-top: 61px;
+    }
+
+    .applicants-mini-items {
+        flex-wrap: wrap;
+    }
+
+    .menu.active {
+        left: 0;
+        padding: 0 20px;
+
+    }
+    .menu.moved{
+        top: 80px;
+    }
+
+    .menu.active ul {
+        flex-direction: column;
+
+    }
+
+    .header-logo {
+        flex: 1 1 auto;
+    }
+
+    .header-body {
+        justify-content: stretch;
+        padding: 23px 0;
+        min-height: 39px;
+    }
+
+    .questions-body {
+        flex-direction: column-reverse;
+    }
+
+    .questions-section {
+        padding-top: 59px;
+        padding-bottom: 50px;
+
+    }
+
+    .question-decor {
+        display: none;
+    }
+
+
+    .transforming-body {
+        flex-direction: column;
+        gap: 79px;
+        align-items: center;
+    }
+
+    .transforming-form-inputs {
+        flex-wrap: wrap;
+    }
+
+    .form-input:first-child {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 794px) {
+
+    .main-body {
+        padding-top: 48px;
+
+    }
+
+    .main-title {
+        font-size: 40px;
+        line-height: 54.48px;
+
+    }
+
+    .main-services {
+        margin-top: 89px;
+
+    }
+
+    .main-info-titles > :not(:last-child) {
+        margin: 0 0 36px 0;
+    }
+
+    .main-sub-title {
+        font-size: 16px;
+        line-height: 21.79px;
+
+    }
+
+    .main-services > :not(:last-child) {
+        margin: 0 0 46px 0;
+    }
+
+    .videoRevues-title {
+        max-width: 301px;
+    }
+
+    .videoRevues-list {
+        margin-top: 78px;
+    }
+    .videoRevues-section {
+
+        padding: 61px 0 140px;
+    }
+    .sign-up {
+        margin-top: 59px;
+    }
+
+    .big-play {
+        width: 122px;
+        height: 122px;
+    }
+
+    .videoRevues-item {
+        height: 355px;
+    }
+
+    .main-picture img {
+        max-width: inherit;
+        max-height: inherit;
+
+    }
+
+    .requirements-arrow-mobile {
+        display: block;
+    }
+
+    .requirements-text {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+    }
+
+    .requirements-arrow {
+        display: none;
+    }
+
+    .btn-white {
+        padding: 0 16px;
+    }
+
+
+    .btn-white img {
+        width: 27px;
+    }
+
+    .section-decor {
+        display: none;
+    }
+
+    .main-info {
+        padding-bottom: 102px;
+        margin-top: 0;
+    }
+
+    .recruitment-section {
+        margin-top: 105px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .register-section {
+        margin-top: 171px;
+    }
+
+    .cases-header > :not(:last-child) {
+        margin: 0 0 25px 0;
+    }
+
+    .candidates-item {
+        flex: 0 1 100%;
+
+    }
+
+    .choose-title {
+        max-width: 251px;
+    }
+
+
+    .candidates-info-more.active {
+        margin-top: 30px;
+    }
+
+    .videoRevues-section {
+        margin-top: 70px;
+    }
+
+    .cases-info-text {
+        font-size: 16px;
+        max-width: 230px;
+    }
+
+    .applicants-item-title {
+        max-width: 300px;
+    }
+
+    .applicants-big-item .applicants-item-title {
+        max-width: 225px;
+
+    }
+
+    .funnel-section {
+        margin-top: 116px;
+    }
+
+    .applicants-item-lists {
+        gap: 1px;
+    }
+
+    .applicants-list {
+        margin-top: 33px;
+    }
+
+    .cases-sub-title {
+        font-size: 20px;
+        line-height: 27.24px;
+        max-width: 284px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        line-height: 43.58px;
+    }
+
+    .section-sub-title {
+        font-size: 20px;
+        line-height: 27.24px;
+    }
+
+    .recruitment-list {
+        margin-top: 55px;
+        gap: 18px;
+
+
+    }
+
+    .compare-section {
+        margin-top: 75px;
+    }
+
+    .compare-list {
+        margin-top: 75px;
+
+    }
+
+    .compare-item {
+        padding: 46px 60px 46px 37px;
+
+    }
+
+    .compare-item-title {
+        font-size: 20px;
+        line-height: 27.24px;
+        max-width: 100px;
+
+
+    }
+
+    .contest-description-item {
+        padding: 48px 27px 50px 27px;
+
+    }
+
+    .compare-info-list li a {
+        font-size: 20px;
+        line-height: 27.24px;
+    }
+
+
+    .compare-info-list {
+        margin-top: 55px;
+
+    }
+
+    .contest-section {
+        padding: 45px 0 89px;
+        margin-top: 74px;
+    }
+
+    .funnel-column-text {
+        max-width: 240px;
+        font-size: 16px;
+        line-height: 21.79px;
+
+    }
+
+    .funnel-body {
+        align-items: stretch;
+    }
+
+    .funnel-info-column {
+        gap: 17px;
+    }
+
+    .clients-section {
+        margin-top: 78px;
+    }
+
+    .choose-section {
+        margin-top: 76px;
+        padding: 76px 0 97px;
+
+    }
+
+    .choose-sub-title {
+        max-width: 340px;
+    }
+
+    .unique-sub-title {
+        max-width: 340px;
+
+    }
+
+    .unique-slider .swiper-pagination-bullet-active::before {
+        width: 20px;
+
+
+    }
+
+    .choose-list {
+        margin-top: 81px;
+    }
+
+    .choose-item {
+        padding: 44px 43px 30px 51px;
+
+    }
+
+    .candidates-section {
+        background: #F0F9FF;
+        padding-bottom: 112px;
+    }
+
+    .unique-section {
+        margin-top: 80px;
+    }
+
+    .unique-slider {
+        margin-top: 94px;
+
+    }
+
+    .unique-slider {
+        padding-bottom: 55px;
+    }
+
+    .register-title {
+        font-size: 32px;
+        line-height: 43.58px;
+        max-width: 260px;
+
+    }
+
+    .register-sub-title {
+        margin-top: 50px;
+        opacity: .4;
+    }
+
+    .register-info {
+        flex-direction: column-reverse;
+    }
+
+    .bg-decor {
+        display: none;
+    }
+
+    .section-bg {
+        height: 900px;
+
+    }
+
+    .footer {
+        margin-top: 91px;
+        padding-bottom: 91px;
+    }
+}
+
+
+@media (max-width: 637px) {
+    .compare-list {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    }
+
+    .candidates-experience {
+        margin-top: 36px;
+    }
+
+    .cases-description-item {
+        padding: 25px;
+
+
+    }
+
+    .register-btn {
+        display: none;
+    }
+
+    .cases-info-img {
+        display: none;
+    }
+
+    .compare-decor--one {
+        left: 0;
+    }
+
+    .question-list .swiper-pagination {
+        display: none;
+    }
+
+    .question-list-item {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .main-media {
+        width: 380px;
+        right: 20px;
+    }
+
+    .transforming-form-title {
+        max-width: 210px;
+    }
+
+    .transforming-form {
+
+        padding: 25px 45px 50px 25px;
+    }
+
+    .transforming-form-inputs {
+        margin-top: 40px;
+    }
+
+    .form-btn {
+        margin-top: 35px;
+
+    }
+
+    .contest-descr-bnt {
+        display: none;
+    }
+
+    .register-tools {
+        padding: 62px 42px 196px 39px;
+    }
+
+    .question-list {
+        padding: 59px 40px;
+    }
+
+    .question-options {
+        display: none;
+    }
+
+    .transforming-body {
+        align-items: stretch;
+    }
+
+    .question-navigation {
+        margin-top: 82px;
+    }
+
+    .transforming-title {
+        max-width: 342px;
+        font-size: 30px;
+    }
+
+    .transforming-sub-title {
+        max-width: 342px;
+        font-size: 20px;
+        line-height: 27.24px;
+        margin-top: 50px;
+    }
+
+    .unique-slider .swiper-pagination-bullet {
+        width: 33px;
+
+    }
+
+    .question-swiper {
+        max-height: 360px;
+        overflow-x: scroll;
+
+
+    }
+
+    .questions-section {
+        margin-top: 83px;
+
+
+    }
+
+    .question-list-item {
+        overflow-x: scroll;
+    }
+
+    .question-list {
+        padding: 59px 30px 20px;
+
+    }
+
+    .questions-info-box p {
+
+        margin-top: 44px;
+
+    }
+
+    .applicants-item-list > :not(:last-child) {
+        margin: 0 0 3px 0;
+    }
+}
+
+
+@media (max-width: 567px) {
+
+    .order-call {
+        display: none;
+    }
+
+    .applicants-column-info {
+        display: none;
+    }
+
+    .applicants-item-lists {
+        flex-direction: column;
+    }
+
+    .clients-sub-title {
+        max-width: 334px;
+    }
+
+    .clients-list {
+        margin-top: 50px;
+    }
+
+    .header-logo img {
+        max-width: 116px;
+        height: 39px;
+    }
+
+    .menu {
+
+        top: 70px;
+
+
+    }
+
+    .order-call-mobile {
+        opacity: 1;
+        visibility: visible;
+        position: relative;
+        margin-top: 20px;
+
+    }
+
+    .main-picture img {
+        max-width: 380px;
+        width: 100%;
+
+    }
+
+    .picture-name {
+        bottom: 45px;
+        right: 75px;
+    }
+
+    .download-requirements {
+        top: 161px;
+    }
+
+    .question-navigation {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 376px) {
+
+
+}
+
+
+
+

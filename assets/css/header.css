@@ -1,0 +1,135 @@
+
+.header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFFFFF;
+
+}
+.header.moved .header-body{
+    padding: 10px 0 10px;
+
+}
+
+.header-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 31px 0 27px;
+    transition: padding 0.3s ease
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.52px;
+    color: #1E1E1E;
+    cursor: pointer;
+    transition: .3s;
+
+
+}
+
+.menu ul li a:hover {
+    color: #B3D2FF;
+}
+
+.order-call {
+    max-width: 230px;
+    width: 100%;
+    padding: 0 15px;
+    min-height: 56px;
+    gap: 14px;
+
+}
+
+.order-call-mobile {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    min-height: 56px;
+    gap: 14px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.order-call-mobile button {
+
+}
+
+.burger {
+    flex: 0 0 17px;
+    height: 13px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .burger::before {
+        content: '';
+        display: block;
+        height: 2px;
+        border-radius: 27px;
+        background: #061B3A;
+        transition: .3s;
+        width: 13px;
+    }
+
+    .burger::after {
+        content: '';
+        display: block;
+        height: 2px;
+        border-radius: 27px;
+        background: #061B3A;
+        transition: .3s;
+        width: 100%;
+
+    }
+
+    .burger span {
+        display: block;
+        width: 9px;
+        height: 2px;
+        border-radius: 27px;
+        background: #061B3A;
+        transition: .3s;
+    }
+
+    .burger.active.burger::after {
+        transform: rotate(-45deg);
+        position: relative;
+        bottom: 7px;
+    }
+
+    .burger.active.burger::before {
+        transform: rotate(45deg);
+        position: relative;
+        top: 3px;
+        width: 17px;
+    }
+
+    .burger.active.burger span {
+        transform: scale(0);
+
+    }
+}

@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: url('NotoSans-Regular.woff');
+    src: local('NotoSans-Regular.woff'), local('Noto Sans'),
+    url('NotoSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url('NotoSans-Medium.woff');
+    src: local('NotoSans-Medium.woff'), local('Noto Sans'),
+    url('NotoSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url('NotoSans_SemiCondensed-SemiBold.woff');
+    src: local('NotoSans_SemiCondensed-SemiBold.woff'), local('Noto Sans'),
+    url('NotoSans_SemiCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url('NotoSans_SemiCondensed-Bold.woff');
+    src: local('NotoSans_SemiCondensed-Bold.woff'), local('Noto Sans'),
+    url('NotoSans_SemiCondensed-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url('NotoSans_SemiCondensed-ExtraBold.woff');
+    src: local('NotoSans_SemiCondensed-ExtraBold.woff'), local('Noto Sans'),
+    url('NotoSans_SemiCondensed-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Noto Sans";
+    src: url('NotoSans-Black.woff');
+    src: local('NotoSans-Black.woff'), local('Noto Sans'),
+    url('NotoSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*font-family: "Onest";*/
+@font-face {
+    font-family: "Onest";
+    src: url('Onest-SemiBold_1.woff');
+    src: local('Onest-SemiBold_1.woff'), local('Onest'),
+    url('Onest-SemiBold_1.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+/*font-family: "Bebas Neue Regular";*/
+@font-face {
+    font-family: "Bebas Neue Regular";
+    src: url('BebasNeue-Regular.woff');
+    src: local('BebasNeue-Regular.woff'), local('Bebas Neue Regular'),
+    url('BebasNeue-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
